@@ -93,6 +93,7 @@
                             <th>Status</th>
                             <th>Nama</th>
                             <th>Ruangan</th>
+                            <th>Waktu</th>
                             <th>Tanggal</th>
                             <th>Keterangan</th>
                           </tr>
@@ -110,6 +111,7 @@
                               </td>
                               <td><?= $row->nama_dosen; ?></td>
                               <td><?= $row->ruangan; ?></td>
+                              <td><?= $row->waktu; ?></td>
                               <td><?= $row->pemakaian_created; ?></td>
                               <td><?= $row->keterangan; ?></td>
                             </tr>
